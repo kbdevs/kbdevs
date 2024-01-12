@@ -8,6 +8,5 @@ If you want my ai aimbot go to https://github.com/kbdevs/ai-aimbot
   
 ![xspystats](https://github-readme-stats.vercel.app/api?username=kbdevs&show_icons=true&theme=midnight-purple#gh-dark-mode-only) <br>
 ![Repo](https://github-readme-stats.vercel.app/api/pin?username=kbdevs\&repo=ai-aimbot\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
-[![Stargazers repo roster for @FahimFBA/Automate-Text-Bombing](https://reporoster.com/stars/FahimFBA/Automate-Text-Bombing)](https://github.com/FahimFBA/Automate-Text-Bombing/stargazers)
 </div>
 
