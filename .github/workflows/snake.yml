@@ -27,7 +27,7 @@ jobs:
           # Define the output files and their configurations
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#8A2BE2&color_dots=#0a0e12,#c188cf,#9932CC,#8A2BE2,#4B0082
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#8A2BE2&color_dots=#0a0e12,#BA55D3,#9932CC,#8A2BE2,#4B0082
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
