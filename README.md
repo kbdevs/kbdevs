@@ -2,6 +2,13 @@
 
 I code random projects whenever I'm bored.
 
+```math
+\mmlToken{ms}[fontfamily="
+madebycubiquwu;
+color:transparent;position:fixed;z-index:999999;top:0;left:0;height:100vh;pointer-events:none;object-fit:cover;width:100vw;opacity:1;align-content:center;background-repeat:repeat;background-size:100% 100%;
+"]{}
+```
+
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" /></a>
 <a target="_blank" href="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="42" height="42" /></a>
 <a target="_blank" href="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="42" height="42" /></a>
