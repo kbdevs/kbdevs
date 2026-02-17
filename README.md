@@ -1,4 +1,11 @@
-# hey im kbdevs
+<h1>
+  hey im kbdevs
+  <span align="right">
+    <img src="https://komarev.com/ghpvc/?username=kbdevs&style=flat-square&color=6366f1&label=Profile+Views" alt="profile views"/>
+    <img src="https://img.shields.io/github/followers/kbdevs?style=flat-square&color=6366f1" alt="followers"/>
+  </span>
+</h1>
+
 
 <p align="center">
   <picture>
@@ -24,15 +31,6 @@
   <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" />
   <img src="https://img.shields.io/badge/Photoshop-31A8FF?logo=adobe-photoshop&logoColor=white" />
 </p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kbdevs&style=flat-square&color=6366f1&label=Profile+Views" alt="profile views"/>
-  <img src="https://img.shields.io/github/followers/kbdevs?style=flat-square&color=6366f1" alt="followers"/>
-</p>
-
----
 
 ## 🛠️ What I Build
 
