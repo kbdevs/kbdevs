@@ -1,29 +1,71 @@
-### kb
+# hey im kbdevs
 
-I code random projects whenever I'm bored.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kbdevs/kbdevs/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kbdevs/kbdevs/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/kbdevs/kbdevs/output/github-snake.svg" />
+  </picture>
+</p>
 
+---
 
-<p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" /></a>
-<a target="_blank" href="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="42" height="42" /></a>
-<a target="_blank" href="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="42" height="42" /></a>
-<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="42" height="42" /></a>
-<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="42" height="42" /></a>
-<a target="_blank" href="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="42" height="42" /></a>
-<a target="_blank" href="https://download.blender.org/branding/community/blender_community_badge_white.svg" style="display: inline-block;"><img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="42" height="42" /></a>
-<a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="42" height="42" /></a>
-<a target="_blank" href="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="42" height="42" /></a>
-<a target="_blank" href="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" style="display: inline-block;"><img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="42" height="42" /></a></p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kbdevs&style=flat-square&color=6366f1&label=Profile+Views" alt="profile views"/>
+  <img src="https://img.shields.io/github/followers/kbdevs?style=flat-square&color=6366f1" alt="followers"/>
+</p>
 
+---
 
-<div align="center">
+## 🛠️ What I Build
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kbdevs/kbdevs/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kbdevs/kbdevs/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/kbdevs/kbdevs/output/github-snake.svg" />
-</picture>
-  
-![](https://{disabled}github-readme-stats.vercel.app/api?username=kbdevs&show_icons=true&theme=midnight-purple#gh-dark-mode-only) <br>
-![](https://{disabled}github-readme-stats.vercel.app/api/pin?username=kbdevs\&repo=ai-aimbot\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
-</div>
+### 📱 iOS
 
+- **[omibutfree](https://github.com/kbdevs/omibutfree)** — Free alternative to Omi app
+- **[GoatRemoteClone](https://github.com/kbdevs/GoatRemoteClone)** — Goat Remote clone
+
+### ☁️ Cloudflare & Web
+
+- **[cors](https://github.com/kbdevs/cors)** — CORS bypass worker
+- **[github-worker](https://github.com/kbdevs/github-worker)** — GitHub mirror on Cloudflare Workers
+
+### 🔧 Utilities
+
+- **[lootlabs-antibypass](https://github.com/kbdevs/lootlabs-antibypass)** — Free system to block anyone from bypassing on lootlabs
+- **[notificationslibrary](https://github.com/kbdevs/notificationslibrary)** — Free alternative to poopups
+- **[mlsharp](https://github.com/kbdevs/mlsharp)** — ML tooling
+- **[KindleFetch](https://github.com/kbdevs/KindleFetch)** — CLI for downloading books from Anna's Archive to your Kindle
+- **[kbclip](https://github.com/kbdevs/kbclip)** — Clip compressor using ffmpeg
+- **[ScreenshotFinder](https://github.com/kbdevs/ScreenshotFinder)** — Find lost Minecraft screenshots
+- **[server-restore](https://github.com/kbdevs/server-restore)** — Discord bot for backing up and restoring servers
+- **[DailyWallpaper](https://github.com/kbdevs/DailyWallpaper)** — Daily wallpaper setter
+- **[custom-totem](https://github.com/kbdevs/custom-totem)** — Automatically make custom totem texturepacks
+- **[topographicalmapmaker](https://github.com/kbdevs/topographicalmapmaker)** — Program to make contour/topographical maps
+- **[college-shirts](https://github.com/kbdevs/college-shirts)** — Script for free college shirts
+- **[img2gif](https://github.com/kbdevs/img2gif)** — Discord bot for img2gif
+- **[quick-git](https://github.com/kbdevs/quick-git)** — Quick git shortcuts
+
+### 🤖 Automation & Scripts
+
+- **[AutoDuo](https://github.com/kbdevs/AutoDuo)** — Python script to automatically complete Duolingo
+- **[NitroSniperGo](https://github.com/kbdevs/NitroSniperGo)** — Discord Nitro sniper and Giveaway joiner in Go
+
+### 💻 Dev Tools
+
+- **[Narrow.one-Desktop](https://github.com/kbdevs/Narrow.one-Desktop)** — Desktop app for Narrow.one
+- **[SkyCrypt-Desktop-App](https://github.com/kbdevs/SkyCrypt-Desktop-App)** — SkyCrypt desktop application
+
+### 🎮 Gaming
+
+- **[Clash-Royale-autoplay](https://github.com/kbdevs/Clash-Royale-autoplay)** — Clash Royale autoplay
+- **[PicoW-badusb](https://github.com/kbdevs/PicoW-badusb)** — PicoW badusb project
+- **[steam-artwork](https://github.com/kbdevs/steam-artwork)** — Download steam artwork for games
+- **[crossover](https://github.com/kbdevs/crossover)** — Crosshair overlay for any screen
+
+---
+
+## 📊 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,swift,c,react,nodejs,cloudflare,fastapi" />
+</p>
