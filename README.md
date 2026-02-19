@@ -32,12 +32,12 @@
   <img src="https://img.shields.io/badge/Photoshop-31A8FF?logo=adobe-photoshop&logoColor=white" />
 </p>
 
-## 🛠️ What I Build
+## 🛠️ What I Build (Public)
 
 ### 📱 iOS
 
 - **[omibutfree](https://github.com/kbdevs/omibutfree)** — Free alternative to Omi app
-- **[GoatRemoteClone](https://github.com/kbdevs/GoatRemoteClone)** — Goat Remote clone
+- **[GoatRemoteClone](https://github.com/kbdevs/GoatRemoteClone)** — A clone of GoatRemote that allows you to control your mac using an apple tv remote
 
 ### ☁️ Cloudflare & Web
 
@@ -47,27 +47,26 @@
 ### 🔧 Utilities
 
 - **[lootlabs-antibypass](https://github.com/kbdevs/lootlabs-antibypass)** — Free system to block anyone from bypassing on lootlabs
-- **[notificationslibrary](https://github.com/kbdevs/notificationslibrary)** — Free alternative to poopups
-- **[mlsharp](https://github.com/kbdevs/mlsharp)** — ML tooling
-- **[KindleFetch](https://github.com/kbdevs/KindleFetch)** — CLI for downloading books from Anna's Archive to your Kindle
-- **[PicoW-badusb](https://github.com/kbdevs/PicoW-badusb)** — PicoW badusb project
+- **[notificationslibrary](https://github.com/kbdevs/notificationslibrary)** — Free alternative to poopups by Marc Lou
+- **[mlsharp](https://github.com/kbdevs/mlsharp)** — UI for apple's ML-Sharp model
+- **[KindleFetch](https://github.com/kbdevs/KindleFetch)** — Kindle CLI for download books on jailbroken devices
+- **[PicoW-badusb](https://github.com/kbdevs/PicoW-badusb)** — Wifi controlled badusb on a RPI Pico W
 - **[server-restore](https://github.com/kbdevs/server-restore)** — Discord bot for backing up and restoring servers
-- **[DailyWallpaper](https://github.com/kbdevs/DailyWallpaper)** — Daily wallpaper setter
+- **[DailyWallpaper](https://github.com/kbdevs/DailyWallpaper)** — Customized "year in review" type daily wallpaper generator
 - **[topographicalmapmaker](https://github.com/kbdevs/topographicalmapmaker)** — Program to make contour/topographical maps
-- **[college-shirts](https://github.com/kbdevs/college-shirts)** — Script for free college shirts
-- **[img2gif](https://github.com/kbdevs/img2gif)** — Discord bot for img2gif
-- **[quick-git](https://github.com/kbdevs/quick-git)** — Quick git shortcuts
+- **[college-shirts](https://github.com/kbdevs/college-shirts)** — Program to email ~2k colleges for merch (worked too well!)
+- **[img2gif](https://github.com/kbdevs/img2gif)** — Discord bot that allows you to convert images to gifs to easily save them
+- **[quick-git](https://github.com/kbdevs/quick-git)** — Personal shortcuts for using git
 
 ### 🤖 Automation & Scripts
 
-- **[AutoDuo](https://github.com/kbdevs/AutoDuo)** — Python script to automatically complete Duolingo
-- **[NitroSniperGo](https://github.com/kbdevs/NitroSniperGo)** — Discord Nitro sniper and Giveaway joiner in Go
+- **[AutoDuo](https://github.com/kbdevs/AutoDuo)** — Python script to automatically complete Duolingo lessons for XP not progress
 
 ### 🎮 Gaming
 
-- **[Clash-Royale-autoplay](https://github.com/kbdevs/Clash-Royale-autoplay)** — Clash Royale autoplay
+- **[Clash-Royale-autoplay](https://github.com/kbdevs/Clash-Royale-autoplay)** — A program to automatically play Clash Royale
 - **[steam-artwork](https://github.com/kbdevs/steam-artwork)** — Download steam artwork for games
-- **[crossover](https://github.com/kbdevs/crossover)** — Crosshair overlay for any screen
+- **[crossover](https://github.com/kbdevs/crossover)** — Crosshair overlay for any game
 - **[kbclip](https://github.com/kbdevs/kbclip)** — Clip compressor using ffmpeg
 - **[ScreenshotFinder](https://github.com/kbdevs/ScreenshotFinder)** — Find lost Minecraft screenshots
 - **[custom-totem](https://github.com/kbdevs/custom-totem)** — Automatically make custom totem texturepacks
