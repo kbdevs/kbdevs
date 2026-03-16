@@ -42,6 +42,7 @@
 
 - **[cors](https://github.com/kbdevs/cors)** — CORS bypass worker
 - **[github-worker](https://github.com/kbdevs/github-worker)** — GitHub mirror on Cloudflare Workers
+- **[react-draw](https://github.com/kbdevs/react-draw)** — React overlay for sketching callouts and copying full-page annotated screenshots
 
 ### 🔧 Utilities
 
