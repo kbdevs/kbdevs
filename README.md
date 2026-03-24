@@ -58,6 +58,7 @@
 - **[college-shirts](https://github.com/kbdevs/college-shirts)** — Program to email ~2k colleges for merch (worked too well!)
 - **[img2gif](https://github.com/kbdevs/img2gif)** — Discord bot that allows you to convert images to gifs to easily save them
 - **[quick-git](https://github.com/kbdevs/quick-git)** — Personal shortcuts for using git
+- **[ralph-opencode](https://github.com/kbdevs/ralph-opencode)** — OpenCode plugin that auto-sends `continue` whenever a Ralph-enabled session goes idle
 
 ### 🤖 Automation & Scripts
 
