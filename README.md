@@ -59,6 +59,7 @@
 - **[img2gif](https://github.com/kbdevs/img2gif)** — Discord bot that allows you to convert images to gifs to easily save them
 - **[quick-git](https://github.com/kbdevs/quick-git)** — Personal shortcuts for using git
 - **[ralph-opencode](https://github.com/kbdevs/ralph-opencode)** — OpenCode plugin that auto-sends `continue` whenever a Ralph-enabled session goes idle
+- **[opencode-codex-auth](https://github.com/kbdevs/opencode-codex-auth)** — OpenCode plugin for rotating Codex OAuth requests across multiple accounts
 
 ### 🤖 Automation & Scripts
 
