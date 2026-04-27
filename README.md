@@ -47,6 +47,7 @@
 ### 🔧 Utilities
 
 - **[fakepaste](https://github.com/kbdevs/fakepaste)** — macOS menu bar app that types clipboard text with humanized speed, pauses, and typo corrections
+- **[SwiftPermiso](https://github.com/kbdevs/SwiftPermiso)** — Swift package for polished macOS permission-helper overlays
 - **[buddy](https://github.com/kbdevs/buddy)** — macOS menu bar app that dispatches Codex agents through CUA Driver
 - **[lootlabs-antibypass](https://github.com/kbdevs/lootlabs-antibypass)** — Free system to block anyone from bypassing on lootlabs
 - **[notificationslibrary](https://github.com/kbdevs/notificationslibrary)** — Free alternative to poopups by Marc Lou
