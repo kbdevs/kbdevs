@@ -1,0 +1,45 @@
+name: eco profile
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [profile.json, .eco/**, .github/workflows/eco-profile.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: eco-profile
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Check rolling calendar
+        run: node --test .eco/calendar.test.mjs
+      - name: Render
+        run: node .eco/render.mjs
+        env:
+          LOGIN: ${{ github.repository_owner }}
+      - name: Publish images
+        run: |
+          git fetch origin output
+          git worktree add --detach .output origin/output
+          cp dist/*.svg .output/
+          git -C .output add -- '*.svg'
+          if ! git -C .output diff --cached --quiet; then
+            git -C .output -c user.name=eco-profile -c user.email=eco-profile@users.noreply.github.com commit -qm "Render profile images"
+            git -C .output push origin HEAD:output
+          fi
+      - name: Update README
+        run: |
+          if git diff --quiet README.md; then exit 0; fi
+          git add README.md
+          git -c user.name=eco-profile -c user.email=eco-profile@users.noreply.github.com commit -qm "Update profile README"
+          git push
