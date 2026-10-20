@@ -1,6 +1,7 @@
 // Draws this profile from profile.json in light and dark. The contribution forest and team
 // totals use the past 12 months from GitHub's website calendars. Node 20+, no dependencies.
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { calendar } from './calendar.mjs';
 
 const KIT = new URL('./', import.meta.url);
@@ -440,8 +441,15 @@ function teamSlice(team, i, theme) {
 
 // ---- README -----------------------------------------------------------------------------------
 
-const picture = (name, alt, attrs) =>
-	`<picture><source media="(prefers-color-scheme: dark)" srcset="${RAW}/${name}-dark.svg"><img alt="${esc(alt)}" src="${RAW}/${name}-light.svg" ${attrs}></picture>`;
+const picture = (name, alt, attrs) => {
+	// A new image URL makes GitHub's image proxy fetch this render instead of its cached count.
+	const url = (theme) => {
+		const path = `${name}-${theme}.svg`;
+		const version = createHash('sha256').update(files[`${OUT}/${path}`]).digest('hex').slice(0, 16);
+		return `${RAW}/${path}?v=${version}`;
+	};
+	return `<picture><source media="(prefers-color-scheme: dark)" srcset="${url('dark')}"><img alt="${esc(alt)}" src="${url('light')}" ${attrs}></picture>`;
+};
 const linked = (href, inner) => `<a href="${esc(href)}">${inner}</a>`;
 
 // Socials, then the forest, then who you are, then the team. GitHub allows no styles in a README,
@@ -501,7 +509,7 @@ await Promise.all(
 	}),
 );
 
-const files = { 'README.md': readme(profile, team, socials) };
+const files = {};
 for (const theme of ['light', 'dark']) {
 	files[`${OUT}/snake-${theme}.svg`] = snakeSVG(cal, theme);
 	files[`${OUT}/apply-${theme}.svg`] = applyPill(theme);
@@ -509,6 +517,7 @@ for (const theme of ['light', 'dark']) {
 		files[`${OUT}/social-${key}-${theme}.svg`] = socialPill(theme, key, handle);
 	team.forEach((_, i) => (files[`${OUT}/team-${i + 1}-${theme}.svg`] = teamSlice(team, i, theme)));
 }
+files['README.md'] = readme(profile, team, socials);
 await mkdir(OUT, { recursive: true });
 await Promise.all(Object.entries(files).map(([path, body]) => writeFile(path, body)));
 console.info(
